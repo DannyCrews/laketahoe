@@ -1,15 +1,16 @@
+/* Type Selectors ------------------ */
+
 body {
   color: #878787;
   margin: 0;
+  font-size: 1em;
+
 }
 
-.main-header {
-  background-color: orange;
-}
-
-h1 {
-  font-size: 90px;
-  color: white;
+h1 {  
+  font-size: 5.65rem; /* 96/16 */
+  color: rgba(255, 255, 255, .5);
+  text-transform: uppercase;
 }
 
 h2 {
@@ -18,19 +19,72 @@ h2 {
 
 h3 {
   font-size: 20px;
-  color: #4825c5;
+  color: #48525c;
 }
 
-.primary-content {
-  text-align: center;
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: rgb(255, 169, 73);
+  text-decoration: none;
 }
 
-.secondary-content {
-  border-top: 2px solid lightgrey;
+a:visited {
+  color: lightblue;
 }
+
+a:hover {
+  color: rgba(255, 169, 73, .4);
+}
+
+a:active {
+  color: lightcoral;
+}
+
+/* ID Selectors -------------------- */
 
 #main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: solid 10px orange;
+  border-bottom: solid 10px #ffa949;
 }
+
+/* Class Selectors ----------------- */
+
+.main-header {
+  background-color: #ffa949;
+}
+
+.title {
+  color: white;
+  font-size: 1.625rem; /* 26px/16px = 1.625 */
+}
+
+.primary-content,
+.secondary-content {
+  width: 60%;
+}
+
+.primary-content,
+.main-header {
+  text-align: center;
+}
+
+.t-border {
+  border-top: 2px solid lightgrey; /* Top border styles */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
