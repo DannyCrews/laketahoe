@@ -3,22 +3,20 @@
 body {
   color: #878787;
   margin: 0;
-  font-size: 1em;
-
+  font-size: 1em; /* 16px */
 }
 
 h1 {  
-  font-size: 5.65rem; /* 96/16 */
-  color: rgba(255, 255, 255, .5);
-  text-transform: uppercase;
+  font-size: 5.625rem; /* 90px/16px  */
+  color: rgba(255, 255, 255, 1); /* Alpha value of "1" makes element fully opaque */
 }
 
 h2 {
-  font-size: 53px;
+  font-size: 3.3125em; /* 53px/16px  */
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25em; /* 20px/16px  */
   color: #48525c;
 }
 
@@ -26,7 +24,6 @@ h3 {
 
 a:link {
   color: rgb(255, 169, 73);
-  text-decoration: none;
 }
 
 a:visited {
@@ -57,34 +54,18 @@ a:active {
 
 .title {
   color: white;
-  font-size: 1.625rem; /* 26px/16px = 1.625 */
+  font-size: 1.625rem; /* 26px/16px */
 }
 
-.primary-content,
+.primary-content, 
 .secondary-content {
   width: 60%;
 }
 
-.primary-content,
-.main-header {
+.primary-content {
   text-align: center;
 }
 
 .t-border {
   border-top: 2px solid lightgrey; /* Top border styles */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
